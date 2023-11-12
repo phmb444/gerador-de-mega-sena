@@ -39,9 +39,9 @@ export default function MegaSena() {
 
   return (
     <main className="h-screen w-screen bg-white text-black flex flex-col items-center justify-center">
-      <h1 className="text-5xl mb-8">Gere numeros para jogar na Mega Sena</h1>
+      <h1 className="text-xl mb-8 md:text-4xl lg:text-5xl">Gere numeros para jogar na Mega Sena</h1>
       <form>
-        <label className="flex items-center">
+        <label className="flex flex-col md:flex-row items-center justify-center">
           <p className="mr-4">Quantos numeros você quer?</p>
           <input
             className="border-2 border-solid border-black box-border p-2"
