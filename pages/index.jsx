@@ -36,15 +36,15 @@ export default function MegaSena() {
     // Defina a array de números com os novos números gerados.
     setNumeros(novosNumeros);
   };
-
+  
   return (
-    <main className="h-screen w-screen bg-white text-black flex flex-col items-center justify-center">
-      <h1 className="text-xl mb-8 md:text-4xl lg:text-5xl">Gere numeros para jogar na Mega Sena</h1>
+    <main className="h-screen w-screen bg-white text-black flex flex-col items-center justify-center box-border p-8">
+      <h1 className="text-xl mb-8 md:text-4xl lg:text-5xl text-center">Gere numeros para jogar na Mega Sena</h1>
       <form>
-        <label className="flex flex-col md:flex-row items-center justify-center">
-          <p className="mr-4">Quantos numeros você quer?</p>
+        <label className="flex flex-col md:flex-row items-center justify-center ">
+          <p className="mr-4 text-center mb-2">Quantos numeros você quer?</p>
           <input
-            className="border-2 border-solid border-black box-border p-2"
+            className="border-2 border-solid border-black box-border p-2 mb-2"
             type="text"
             name="quantidade"
             value={quantidade}
